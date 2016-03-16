@@ -1,4 +1,4 @@
-angular.module('bdt-highlight', []).controller('MainCtrl', ["$scope", function($scope) {
+angular.module('try-bdt-highlight', ['bdt-highlight']).controller('MainCtrl', ["$scope", function($scope) {
     $scope.text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at massa non erat convallis vulputate molestie";
     $scope.newWord = "";
 
