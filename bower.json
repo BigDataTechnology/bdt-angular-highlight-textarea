@@ -19,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BigDataTechnology/bdt-angular-highlight-textarea"
+    "url": "git://github.com/BigDataTechnology/bdt-angular-highlight-textarea.git"
   },
   "ignore": [
     "bower_components"
