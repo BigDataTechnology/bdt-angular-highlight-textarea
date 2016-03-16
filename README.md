@@ -1,6 +1,11 @@
 # bdt-angular-highlight-textarea
 Angular directive based on [jQuery highlighttextarea](http://garysieling.github.io/jquery-highlighttextarea/index.html)
 
+## How do I add this to my project?
+You can download this by bower:
+
+* Using bower and running `bower install bdt-highlight --save`
+
 ## Dependencies
 
 * angular
@@ -8,6 +13,7 @@ Angular directive based on [jQuery highlighttextarea](http://garysieling.github.
 * jquery-ui
 
 ## How do I add this to my project?
+
 ```js
 angular.module('your-app', ['bdt-highlight']);
 ```

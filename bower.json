@@ -1,10 +1,26 @@
 {
   "name": "bdt-highlight",
-  "version": "0.1.0",
+  "description": "Angular directive based on jQuery highlighttextarea",
   "license": "MIT",
   "main": [
     "./src/directive.js"
   ],
+  "keywords": [
+    "angular",
+    "angularjs",
+    "textarea",
+    "text",
+    "highlight",
+    "highlights",
+    "highlighting"
+  ],
+  "authors": [
+    "BDT Team <team@bdt.eu.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BigDataTechnology/bdt-angular-highlight-textarea"
+  },
   "ignore": [
     "bower_components"
   ],
