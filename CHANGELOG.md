@@ -1,3 +1,7 @@
+## 0.2.3 (20160316)
+
+* AngularJs dependencies version fix
+
 ## 0.2.2 (20160316)
 
 * Module fix
