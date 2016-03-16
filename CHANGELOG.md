@@ -1,3 +1,8 @@
+## 0.2.0 (20160316)
+
+* Added Bower install bdt-highlight instruction into README file
+* Bower.json file extended
+
 ## 0.1.0 (20160316)
 
 * First version
