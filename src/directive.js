@@ -1,4 +1,4 @@
-angular.module('bdt-highlight')
+angular.module('bdt-highlight', [])
     .directive('bdtHighlight', [function() {
         return {
             restrict: 'A',
