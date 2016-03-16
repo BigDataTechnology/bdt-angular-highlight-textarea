@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script src="bower_components/jquery-highlighttextarea/jquery.highlighttextarea.min.js"></script>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/jquery-highlighttextarea/jquery.highlighttextarea.min.css">
+
+    <script src="app.js"></script>
+    <script src="src/directive.js"></script>
+</head>
+<body ng-app="bdt-highlight">
+<div class="container" style="padding-top: 50px;" ng-controller="MainCtrl">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-12">
+                    <textarea class="form-control"
+                              rows="8" id="text"
+                              ng-model="text"
+                              bdt-highlight
+                              bdt-option="option"></textarea>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 10px;">
+                <div class="col-md-6 text-center">
+                    <h4>Highlights words</h4>
+                    <input type="text" class="form-control" ng-model="newWord">
+                    <div style="padding-top: 10px;">
+                        <button class="btn btn-sm btn-success"
+                                ng-disabled="!newWord"
+                                ng-click="addWord()">Add word</button>
+                        <button class="btn btn-sm btn-default"
+                                ng-disabled="!option.words.words || !option.words.words.length"
+                                ng-click="cleanWords()">Clean highlights words</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <pre>{{option | json}}</pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
